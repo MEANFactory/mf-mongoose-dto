@@ -61,7 +61,7 @@ The [mf-mongoose-dto](https://github.com/MEANFactory/mf-mongoose-dto) plugin wil
 
 ### Logic ###
 1. `key`: a dot-notated path will be constructed;
-2. `name`: the plain-English name (used by [mf-mongoose-validate](https://github.com/MEANFactory/mf-mongoose-validate)) will be converted and used;
+2. `name`: the plain-English name (used by [mf-mongoose-validation](https://github.com/MEANFactory/mf-mongoose-validation)) will be converted and used;
 3. the field name is used if neither `key` or `name` exist on the schema; and,
 4. enumerators are always hydrated using an `id` field with an object.
 
@@ -238,7 +238,7 @@ Convert to/from JSON DTO while applying optional level-based hiding.
 **[mf-mongoose-softdelete](https://github.com/MEANFactory/mf-mongoose-softdelete)**  
 Increase data integrity by retaining historical data and preventing data from being permanently deleted.  Each `delete` operation causes the document to be marked as "deleted" and subsequently hidden from result sets.
 
-**[mf-mongoose-validate](https://github.com/MEANFactory/mf-mongoose-validate)**  
+**[mf-mongoose-validation](https://github.com/MEANFactory/mf-mongoose-validation)**  
 Provides additional validation for extended data types, field lengths, arrays, and other useful features.
 
 And, for convenience...
