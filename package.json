@@ -1,6 +1,6 @@
 {
   "name": "mf-mongoose-dto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Covnert to/from JSON DTO while applying optional level-based hiding.",
   "main": "src/index.js",
   "scripts": {
@@ -26,11 +26,11 @@
     "url": "http://www.meanfactory.com/"
   },
   "contributors": [
-      {
-        "name": "Fred Lackey",
-        "email": "fred.lackey@gmail.com",
-        "url": "http://www.fredlackey.com/"
-      }
+    {
+      "name": "Fred Lackey",
+      "email": "fred.lackey@gmail.com",
+      "url": "http://www.fredlackey.com/"
+    }
   ],
   "license": "Apache-2.0",
   "bugs": {
@@ -38,11 +38,11 @@
   },
   "homepage": "https://github.com/MEANFactory/mf-mongoose-dto#readme",
   "dependencies": {
-    "mf-utils-node": ">=1.0.1",
-    "mongoose": "^4.9.0"
+    "mf-utils-node": ">=1.0.5",
+    "mongoose": "^4.11.1"
   },
   "devDependencies": {
-    "del": "^2.2.2",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.7.0",
     "gulp-filter": "^5.0.0",
@@ -57,14 +57,14 @@
     "gulp-rev": "^7.1.2",
     "gulp-rev-replace": "^0.4.3",
     "gulp-task-listing": "^1.0.1",
-    "gulp-uglify": "^2.1.0",
+    "gulp-uglify": "^3.0.0",
     "gulp-useref": "^3.1.2",
     "gulp-util": "^3.0.8",
-    "jshint": "^2.9.4",
+    "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1",
     "merge-stream": "^1.0.1",
-    "node-uuid": "^1.4.7",
-    "yargs": "^7.0.2"
+    "uuid": "^3.1.0",
+    "yargs": "^8.0.2"
   },
   "paths": {
     "build": "./build/",
