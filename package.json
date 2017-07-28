@@ -1,6 +1,6 @@
 {
   "name": "mf-mongoose-dto",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Covnert to/from JSON DTO while applying optional level-based hiding.",
   "main": "src/index.js",
   "scripts": {
@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/MEANFactory/mf-mongoose-dto#readme",
   "dependencies": {
-    "mf-utils-node": ">=1.0.5",
+    "mf-utils-node": ">=1.0.6",
     "mongoose": "^4.11.4"
   },
   "devDependencies": {
